@@ -163,5 +163,6 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<finalName>lti-demo-docker</finalName>
 	</build>
 </project>

@@ -11,6 +11,6 @@ COPY libs2 /home/SeleniumTestFramework/libs2
 
 RUN mvn -f /home/SeleniumTestFramework/pom.xml clean test -DskipTests=true
 
-ADD target/lti-demo.jar /home/SeleniumTestFramework/lti-demo.jar
+ADD target/lti-demo-docker.jar /home/SeleniumTestFramework/lti-demo-docker.jar
 
-ENTRYPOINT ["java","-jar","/home/SeleniumTestFramework/lti-demo.jar"]
+ENTRYPOINT ["java","-jar","/home/SeleniumTestFramework/lti-demo-docker.jar"]
