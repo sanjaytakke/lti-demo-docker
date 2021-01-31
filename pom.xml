@@ -9,7 +9,7 @@
 	<artifactId>lti-demo-docker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>LtDemo</name>
+	<name>LtDemoDocker</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 	<properties>
@@ -163,8 +163,5 @@
 				</executions>
 			</plugin>
 		</plugins>
-		<finalName>
-		lti-demo-docker
-		</finalName>
 	</build>
 </project>
