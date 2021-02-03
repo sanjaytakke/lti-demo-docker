@@ -1,9 +1,9 @@
-Feature: Account Page Feature
+Feature: Account Page Features
 
 Background:
 Given user has already logged in to application
 |username|password|
-|dec2020secondbatch@gmail.com|Selenium@12345|
+|takkesanjay@gmail.com|Selenium@12345|
 
 @accounts1 @ETE_1
 Scenario: Accounts page title
@@ -22,4 +22,3 @@ Then user gets accounts section
 |MY WISHLISTS|
 |Home|
 And accounts section count should be 6
-
