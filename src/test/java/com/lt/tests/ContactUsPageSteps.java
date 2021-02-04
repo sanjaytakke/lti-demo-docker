@@ -48,7 +48,7 @@ public class ContactUsPageSteps extends TestBase {
 		ActionHandler.setText(contactUsPageContainer.emailTxt, emailId);
 		ActionHandler.setText(contactUsPageContainer.messageArea, message);
 		ActionHandler.click(contactUsPageContainer.submitBtn);
-		
+		ActionHandler.wait(3);
 	}
 
 	@Then("Verify success message")
