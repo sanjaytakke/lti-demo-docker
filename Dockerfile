@@ -6,7 +6,7 @@ COPY src /home/SeleniumTestFramework/src
 COPY pom.xml /home/SeleniumTestFramework
 #coping testing.xml file of your framework
 #COPY testing.xml /home/SeleniumTestFramework
-COPY libs2 /home/SeleniumTestFramework/libs2
+COPY libs /home/SeleniumTestFramework/libs
 #running actual command
 
 RUN mvn -f /home/SeleniumTestFramework/pom.xml clean test -DskipTests=true
