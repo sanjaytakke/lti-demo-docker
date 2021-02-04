@@ -1,6 +1,6 @@
 Feature: Contact Us Page
 
-@Contactus @ETE_1
+@Contactus @ETE_112
 Scenario: Verifying Customer Service Message
 	Given User is on home page
 	When User navigate to contact us page

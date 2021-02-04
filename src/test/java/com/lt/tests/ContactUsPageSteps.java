@@ -53,7 +53,9 @@ public class ContactUsPageSteps extends TestBase {
 
 	@Then("Verify success message")
 	public void verify_success_message() {
-		AssertHandler.assertTextEqualsOnElement(contactUsPageContainer.successMsgAlert, Constants.CONTACTUSSUCCESSMSG);
+		System.out.println(contactUsPageContainer.successMsgAlert.getText());
+		System.out.println();
+		AssertHandler.assertString(contactUsPageContainer.successMsgAlert.getText(), Constants.CONTACTUSSUCCESSMSG);
 	}
 
 }

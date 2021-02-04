@@ -23,18 +23,15 @@
 	</properties>
 
 	<dependencies>
-		
-		<!-- <dependency>
-			<groupId>com.lt.autotestcore</groupId>
-			<artifactId>autotestcore</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency> -->
+
+		<!-- <dependency> <groupId>com.lt.autotestcore</groupId> <artifactId>autotestcore</artifactId> 
+			<version>0.0.1-SNAPSHOT</version> </dependency> -->
 		<dependency>
 			<groupId>com.lt.autotestcore</groupId>
 			<artifactId>autotestcore</artifactId>
 			<scope>system</scope>
 			<version>0.0.1-SNAPSHOT</version>
-			<systemPath>${project.basedir}/libs/autotestcore-0.0.3-SNAPSHOT.jar</systemPath>	
+			<systemPath>${project.basedir}/libs/autotestcore-0.0.3-SNAPSHOT.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>io.cucumber</groupId>
@@ -103,7 +100,11 @@
 			<version>${slf4j.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm -->
-
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+		</dependency>
 	</dependencies>
 
 	<build>
