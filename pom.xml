@@ -34,7 +34,7 @@
 			<artifactId>autotestcore</artifactId>
 			<scope>system</scope>
 			<version>0.0.1-SNAPSHOT</version>
-			<systemPath>${project.basedir}/libs/autotestcore-0.0.2-SNAPSHOT.jar</systemPath>	
+			<systemPath>${project.basedir}/libs/autotestcore-0.0.3-SNAPSHOT.jar</systemPath>	
 		</dependency>
 		<dependency>
 			<groupId>io.cucumber</groupId>
