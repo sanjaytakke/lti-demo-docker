@@ -7,7 +7,7 @@
 
 	<groupId>com.lt.demo</groupId>
 	<artifactId>lti-demo-docker</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<name>LtDemoDocker</name>
 	<!-- FIXME change it to the project's website -->
@@ -30,7 +30,7 @@
 			<groupId>com.lt.autotestcore</groupId>
 			<artifactId>autotestcore</artifactId>
 			<scope>system</scope>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.3-SNAPSHOT</version>
 			<systemPath>${project.basedir}/libs2/autotestcore-0.0.3-SNAPSHOT.jar</systemPath>
 		</dependency>
 		<dependency>
